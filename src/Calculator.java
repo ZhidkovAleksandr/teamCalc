@@ -21,7 +21,7 @@ public class Calculator {
 
         System.out.println("Середнє арифметичне " + calculate(a, b, c));
 
-        //sum
+        //sum test
         System.out.println("Сумма = " + (a + b + c));
 
 
