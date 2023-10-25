@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class Calculator {
 
-    static double calculate(int a, int b, int c){
+    static double calculate(int a, int b, int c) {
 
-         double _res = (a+b+c)/3;
+        double _res = (a + b + c) / 3;
         return _res;
 
     }
@@ -19,7 +19,12 @@ public class Calculator {
         System.out.println("Введіть операнд c");
         int c = nSc.nextInt();
 
-        System.out.println("Середнє арифметичне " + calculate(a,b,c));
+        System.out.println("Середнє арифметичне " + calculate(a, b, c));
+
+        //sum
+        System.out.println("Сумма = " + (a + b + c));
+
+
     }
 
 }
