@@ -24,6 +24,7 @@ public class Calculator {
         //sum test
         System.out.println("Сумма = " + (a + b + c));
         System.out.println("Сумма = " + (a + b + c));
+        System.out.println("Сумма = " + (a + b + c));
 
 
     }
