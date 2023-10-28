@@ -19,12 +19,12 @@ public class Calculator {
         System.out.println("Введіть операнд c");
         int c = nSc.nextInt();
 
-        System.out.println("Середнє арифметичне " + calculate(a, b, c));
+        System.out.println("Середнє арифметичне = " + calculate(a, b, c));
 
         //sum test
-        System.out.println("Сумма = " + (a + b + c));
-        System.out.println("Сумма = " + (a + b + c));
-        System.out.println("Сумма = " + (a + b + c));
+        System.out.println("Сумма чисел A, B, C = " + (a + b + c));
+        System.out.println("Перемножение чисел A, B, C = " + (a * b * c));
+
 
 
     }
